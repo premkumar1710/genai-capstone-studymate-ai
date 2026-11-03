@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#53657d"/></marker></defs>
+<rect width="1100" height="650" fill="#f7f9fc"/>
+<text x="550" y="48" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#1d2a3a">StudyMate AI — System Architecture</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="370" y="85" width="360" height="75" rx="14" fill="#24344d"/><text x="550" y="116" font-size="20" font-weight="bold" fill="white">Streamlit User Interface</text><text x="550" y="141" font-size="14" fill="#dbe7f5">Chat · Modes · Document Upload</text>
+<rect x="390" y="210" width="320" height="75" rx="14" fill="#dceafe" stroke="#6c91c9" stroke-width="2"/><text x="550" y="241" font-size="19" font-weight="bold" fill="#203b63">Prompt &amp; Tool Router</text><text x="550" y="265" font-size="14" fill="#395879">Intent selection · Conversation context</text>
+<rect x="55" y="365" width="270" height="100" rx="14" fill="#e5f6ed" stroke="#55a77a" stroke-width="2"/><text x="190" y="402" font-size="19" font-weight="bold" fill="#205c3b">Ollama Chat LLM</text><text x="190" y="429" font-size="14" fill="#326d4d">General · Study Coach · Research</text>
+<rect x="415" y="365" width="270" height="100" rx="14" fill="#fff2d9" stroke="#d7a64d" stroke-width="2"/><text x="550" y="402" font-size="19" font-weight="bold" fill="#775016">RAG Pipeline</text><text x="550" y="429" font-size="14" fill="#8a6425">Parse · Chunk · Embed · Retrieve</text>
+<rect x="775" y="365" width="270" height="100" rx="14" fill="#f0e8ff" stroke="#9c7bc8" stroke-width="2"/><text x="910" y="402" font-size="19" font-weight="bold" fill="#563b7d">Calculator Tool</text><text x="910" y="429" font-size="14" fill="#6b5290">Restricted arithmetic evaluator</text>
+<rect x="415" y="535" width="270" height="75" rx="14" fill="#e3f3f7" stroke="#5a9cac" stroke-width="2"/><text x="550" y="565" font-size="19" font-weight="bold" fill="#245969">Ollama Embeddings</text><text x="550" y="588" font-size="14" fill="#376d7b">Vector similarity search</text>
+</g>
+<g stroke="#53657d" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M550 160 V205"/><path d="M450 285 L190 360"/><path d="M550 285 V360"/><path d="M650 285 L910 360"/><path d="M550 465 V530"/></g>
+<text x="550" y="635" font-family="Arial" font-size="12" text-anchor="middle" fill="#607087">Local-first GenAI capstone · no OpenAI API dependency</text>
+</svg>
